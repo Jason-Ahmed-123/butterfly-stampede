@@ -24,8 +24,8 @@ header h1 {
     margin: 0;
     display: inline;
 }
-  
-  header a {
+
+header a {
     text-decoration: none;
     color: #fce138;
 }
@@ -54,6 +54,25 @@ header nav ul li a {
 }
 
 /* Hero Style End */
+
+
+/* headings */
+.section-title {
+    font-size: 55px;
+    color: #fce138;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid;
+}
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #6c7a86;
+}
 
 
 /* footer */

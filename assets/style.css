@@ -127,17 +127,78 @@ header nav ul li a {
 }
 
 
+/* Contact styles start */
+.contact {
+    padding: 10px 35px;
+    background: #0D0208;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contact h2 {
+    font-weight: 300;
+    margin: 0;
+    color: #fce138;
+    font-size: 32px;
+    /* adjusts text position height inside footer */
+    line-height: 80px;
+}
+
+.contact a {
+    text-decoration: none;
+    color: #fce138;
+}
+
+.contact nav {
+    margin: 7px 0;
+}
+
+.contact nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.contact nav ul li {
+    color: #fce138;
+    padding: 15px 15px;
+    font-weight: medium;
+    font-size: 1.55vw;
+}
+
+.contact nav ul li a {
+    /* this padding adjusts the size of the button press */
+    padding: 25px 15px 10px 15px;
+    font-weight: medium;
+    font-size: 1.55vw;
+}
+
+.contact nav ul li a:hover {
+    background: #6c7a86;
+    color: #fff;
+    border-radius: 15px;
+    text-shadow: none;
+}
+/* Contact syles ends */
+
+
 /* footer */
 footer {
     background: #fce138;
     width: 100%;
-    padding: 40px 35px;
+    padding: 10px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 footer h2 {
     display: inline;
     color: #000000;
-    font-size: 30px;
+    font-size: 18px;
     margin: 0;
 }
 

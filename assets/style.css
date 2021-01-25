@@ -75,6 +75,58 @@ header nav ul li a {
 }
 
 
+/* generic utility classes */
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+/* bio */
+.bio {
+    text-align: center;
+}
+
+.biography {
+    width: 900px;
+    margin: 0 auto 30px auto;
+    background: #6c7a86;
+    color: #fce138;
+    overflow: auto;
+}
+
+.biography img {
+    width: 35%;
+    float: left;
+}
+
+.band-bio {
+    padding: 35px;
+    float: left;
+    width: 65%;
+}
+
+.band-bio h3 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+.band-bio h4 {
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+.band-bio p {
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+
 /* footer */
 footer {
     background: #fce138;

@@ -7,8 +7,8 @@ to come...
 Band website
 
 ## Built With
-* HTML
-* CSS
+* HTML5
+* CSS3
 
 ## Website
 to come...

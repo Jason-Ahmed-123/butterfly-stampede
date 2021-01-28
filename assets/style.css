@@ -13,17 +13,27 @@ body {
     height: 100%;
     /* height: 100vw; */
     background-size: cover;
-    background-position: center;
+    background-position: cover;
+    background-attachment: fixed;
 }
 
 /* apply styles to <header> */
 header {
     padding: 20px 35px;
-    background-color: #000000;
+    /* background-color: #000000; */
     /* flexbox */
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    /* sticky-header */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+
+    /* background-image: url("./images/astronaut.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; */
 }
 
 header h1 {
@@ -31,6 +41,7 @@ header h1 {
     margin: 0;
     font-size: 36px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header a {
@@ -51,14 +62,21 @@ header nav ul {
     list-style: none;
 }
 
-/* do i even need this? */
-header nav ul li {}
-
 header nav ul li a {
     margin: 10px 15px;
     font-weight: lighter;
     /* 1.55% viewport width */
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /* this padding adjusts the size of the button press */
+    padding: 10px 15px 10px 15px;
+}
+
+header nav ul li a:hover {
+    background: #6c7a86;
+    color: #fff;
+    border-radius: 15px;
+    text-shadow: none;
 }
 
 /* Hero Style Start */
@@ -80,6 +98,7 @@ header nav ul li a {
     font-size: 100px;
     letter-spacing: 8px;
     color: #fce138;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Hero Style End */
@@ -97,6 +116,8 @@ header nav ul li a {
     background: #6c7a86;
     color: #fce138;
     overflow: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
 }
 
 .biography img {
@@ -113,6 +134,7 @@ header nav ul li a {
 .band-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .band-bio h4 {
@@ -120,18 +142,19 @@ header nav ul li a {
     font-style: italic;
     font-size: 26px;
     margin-bottom: 25px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .band-bio p {
     font-size: 17px;
     line-height: 1.3;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 
 /* Contact styles start */
 .contact {
     padding: 10px 35px;
-    background: #0D0208;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -144,6 +167,7 @@ header nav ul li a {
     font-size: 32px;
     /* adjusts text position height inside contact section */
     line-height: 80px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .contact a {
@@ -175,6 +199,7 @@ header nav ul li a {
     padding: 25px 15px 10px 15px;
     font-weight: medium;
     font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .contact nav ul li a:hover {
@@ -234,6 +259,7 @@ section {
     header {
         padding-bottom: 0;
         justify-content: center;
+        position: relative;
     }
 
     header h1 {

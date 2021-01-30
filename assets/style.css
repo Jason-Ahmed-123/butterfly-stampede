@@ -47,7 +47,6 @@ header a {
 
 header nav {
     margin: 7px 0;
-    float: right;
 }
 
 header nav ul {
@@ -90,9 +89,9 @@ header nav ul li a:hover {
 }
 
 .hero-logo h1 {
-    font-family: "Bauhaus 93", Helvetica, Arial, sans-serif;
+    font-family: "Audiowide", "Bauhaus 93", "Monoton", cursive, Helvetica, Arial, sans-serif;
     font-size: 100px;
-    letter-spacing: 8px;
+    /* letter-spacing: .1em; */
     color: #fce138;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }

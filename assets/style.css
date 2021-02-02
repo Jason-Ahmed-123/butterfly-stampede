@@ -326,8 +326,7 @@ section {
 /* this will be applied on any screen smaller than 575px */
 @media screen and (max-width: 575px) {
     body {
-        background-position: center;
-        background-size: 100vw 100vh;
+        background-size: 175vh;
     }
 
     header nav ul {
@@ -336,7 +335,7 @@ section {
     }
 
     .hero {
-        padding-top: 50%;
+        padding-top: 90%;
     }
 
     .hero-logo h1 {

@@ -274,6 +274,12 @@ section {
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 /* this will be applied on any screen between 768px and 575px */
 @media screen and (max-width: 768px) {
+    /* I repeated this instruction here to attempt to get the background image to work on ipad */
+    body {
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
     header {
         padding-bottom: 0;
         justify-content: center;
@@ -323,13 +329,20 @@ section {
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 /* this will be applied on any screen smaller than 575px */
 @media screen and (max-width: 575px) {
+
+    /* i have repeated this instruction again to try to get background-image to work on cell phone */
+    body {
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
     header nav ul {
         margin-top: 5px;
         width: 100%;
     }
 
     .hero-logo h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .music-player {

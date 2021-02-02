@@ -335,6 +335,10 @@ section {
         width: 100%;
     }
 
+    .hero {
+        padding-top: 50%;
+    }
+
     .hero-logo h1 {
         font-size: 40px;
     }

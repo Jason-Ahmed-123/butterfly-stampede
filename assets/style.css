@@ -274,7 +274,9 @@ section {
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 /* this will be applied on any screen between 768px and 575px */
 @media screen and (max-width: 768px) {
-
+    body {
+        background-size: 175vh;
+    }
 
     header {
         padding-bottom: 0;
@@ -298,7 +300,7 @@ section {
     }
 
     .hero-logo {
-        width: 100%;
+        width: 95%;
         text-align: center;
     }
 

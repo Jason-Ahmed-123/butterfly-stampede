@@ -9,7 +9,7 @@ body {
     /* font-family: Helvetica, Arial, sans-serif; */
     font: 400 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-image: url("./images/astronaut.jpg");
-    height: 100%;
+    /* height: 100%; */
     /* height: 100vw; */
     background-size: cover;
     background-position: cover;
@@ -214,7 +214,7 @@ iframe {
 
 .contact nav ul li a {
     /* this padding adjusts the size of the button press */
-    padding: 25px 15px 10px 15px;
+    padding: 30px 15px 10px 15px;
     font-weight: medium;
     font-size: 1.55vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -233,7 +233,7 @@ iframe {
 /* footer */
 footer {
     /* background: #fce138; */
-    background-image: linear-gradient(to right,#BF953F, #FCF6BA, #B38728, #FBF5B7);
+    background-image: linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7);
     width: 100%;
     padding: 10px 35px;
     display: flex;
@@ -271,6 +271,14 @@ section {
 }
 
 
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 1024px) {
+    body {
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+}
+
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 /* this will be applied on any screen between 768px and 575px */
@@ -281,11 +289,6 @@ section {
         position: relative;
     }
 
-    header h1 {
-        width: 100%;
-        text-align: center;
-    }
-
     header nav ul {
         margin-top: 20px;
         width: 100%;
@@ -293,13 +296,7 @@ section {
     }
 
     header nav ul li a {
-        font-size: 20px;
-    }
-
-    footer h2,
-    footer div {
-        text-align: center;
-        width: 100%;
+        font-size: 30px;
     }
 
     .hero-logo {
@@ -311,6 +308,16 @@ section {
         flex: 0 95%;
     }
 
+    .large-icon {
+        font-size: 40px;
+    }
+
+    footer h2,
+    footer div {
+        text-align: center;
+        width: 100%;
+    }
+
     section {
         padding: 30px 15px;
     }
@@ -320,7 +327,31 @@ section {
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 /* this will be applied on any screen smaller than 575px */
 @media screen and (max-width: 575px) {
-    .biography {
+    .hero-logo h1 {
+        font-size: 50px;
+    }
+
+    .music-player {
         flex: 0 100%;
     }
+
+    .songs {
+        width: 100%;
+        padding: 35px 5px 35px 15px;
+    }
+
+    .biography {
+        flex: 1 100%;
+    }
+
+    .biography img {
+        width: 100%;   
+    }
+
+    .band-bio {
+        padding: 15px;
+        text-align: center;
+        width: 100%;
+    }
+
 }

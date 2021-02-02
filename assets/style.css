@@ -6,8 +6,6 @@
 }
 
 body {
-    /* font */
-    color: #6c7a86;
     /* font-family: Helvetica, Arial, sans-serif; */
     font: 400 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-image: url("./images/astronaut.jpg");
@@ -105,6 +103,40 @@ header nav ul li a:hover {
 /* Hero Style End */
 
 
+/* music player */
+.music {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.music-player {
+    /* width: 900px; */
+    width: 1200px;
+    margin: 0 auto 30px auto;
+    background-image: linear-gradient(to right, #323334, #6c7a86, #ffffff);
+    color: #fce138;
+    overflow: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+
+.songs {
+    width: 50%;
+    float: left;
+    padding: 35px 0px 35px 20px;
+}
+
+.songs h7 {
+    font-style: italic;
+}
+
+iframe {
+    border-radius: 15px;
+    padding: 5px;
+    background: #000000;
+}
+
+
 /* bio */
 .bio {
     display: flex;
@@ -112,7 +144,7 @@ header nav ul li a:hover {
 }
 
 .biography {
-    width: 900px;
+    width: 1200px;
     margin: 0 auto 30px auto;
     /* background: #6c7a86; */
     background-image: linear-gradient(to right, #323334, #6c7a86, #ffffff);
@@ -199,7 +231,8 @@ header nav ul li a:hover {
 
 /* footer */
 footer {
-    background: #fce138;
+    /* background: #fce138; */
+    background-image: linear-gradient(to right,#BF953F, #FCF6BA, #B38728, #FBF5B7);
     width: 100%;
     padding: 10px 35px;
     display: flex;

@@ -331,6 +331,7 @@ section {
 /* this will be applied on any screen smaller than 575px */
 @media screen and (max-width: 575px) {
     body {
+        background-image: url("./images/astronaut-cellphone-600px.jpeg");
     }
 
     header nav ul {

@@ -55,7 +55,7 @@ header nav ul li a {
     margin: 10px 15px;
     font-weight: lighter;
     /* 1.55% viewport width */
-    font-size: 1.55vw;
+    font-size: 1.75vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     /* this padding adjusts the size of the button press */
     padding: 10px 15px 10px 15px;
@@ -267,6 +267,7 @@ section {
     body {
         /* background-position: center center;
         background-repeat: no-repeat; */
+        background-position: center;
     }
 }
 
@@ -275,6 +276,7 @@ section {
 /* this will be applied on any screen between 768px and 575px */
 @media screen and (max-width: 768px) {
     body {
+        background-position: center;
     }
 
     header {
@@ -331,7 +333,7 @@ section {
 /* this will be applied on any screen smaller than 575px */
 @media screen and (max-width: 575px) {
     body {
-        background-image: url("./images/astronaut-cellphone-600px.jpeg");
+        background-position: center;
     }
 
     header nav ul {

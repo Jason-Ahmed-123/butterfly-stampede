@@ -7,7 +7,7 @@
 
 body {
     font: 400 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-image: url("./images/astronaut.jpg");
+    background-image: url("./images/astronaut-copy.jpeg");
     background-size: cover;
     background-position: cover;
     background-attachment: fixed;
@@ -276,7 +276,6 @@ section {
 /* this will be applied on any screen between 768px and 575px */
 @media screen and (max-width: 768px) {
     body {
-        background-size: 1536px 2048px;
 
     }
 

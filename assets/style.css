@@ -275,7 +275,6 @@ section {
 /* this will be applied on any screen between 768px and 575px */
 @media screen and (max-width: 768px) {
     body {
-        background-size: 175vh;
     }
 
     header {
@@ -332,7 +331,7 @@ section {
 /* this will be applied on any screen smaller than 575px */
 @media screen and (max-width: 575px) {
     body {
-        background-size: 175vh;
+
     }
 
     header nav ul {

@@ -333,8 +333,10 @@ section {
 /* this will be applied on any screen smaller than 575px */
 @media screen and (max-width: 575px) {
     body {
+        background-size: 300vw;
         background-position: center;
-        width: 75vw;
+        background-repeat: no-repeat;
+        
     }
 
     header nav ul {

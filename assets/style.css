@@ -300,8 +300,12 @@ section {
     }
 
     .hero-logo {
-        width: 95%;
+        width: 100%;
         text-align: center;
+    }
+
+    .hero-logo h1 {
+        font-size: 95px;
     }
 
     .biography {
@@ -341,7 +345,7 @@ section {
     }
 
     .hero-logo h1 {
-        font-size: 40px;
+        font-size: 47px;
     }
 
     .music-player {

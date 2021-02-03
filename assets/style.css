@@ -265,8 +265,8 @@ section {
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 1024px) {
     body {
-        background-position: center center;
-        background-repeat: no-repeat;
+        /* background-position: center center;
+        background-repeat: no-repeat; */
     }
 }
 
@@ -331,7 +331,6 @@ section {
 /* this will be applied on any screen smaller than 575px */
 @media screen and (max-width: 575px) {
     body {
-
     }
 
     header nav ul {

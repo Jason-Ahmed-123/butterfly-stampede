@@ -276,7 +276,8 @@ section {
 /* this will be applied on any screen between 768px and 575px */
 @media screen and (max-width: 768px) {
     body {
-        
+        background-size: 1536px 2048px;
+
     }
 
     header {

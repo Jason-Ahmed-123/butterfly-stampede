@@ -7,7 +7,7 @@
 
 body {
     font: 400 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-image: url("./images/astronaut.jpg");
+    /* background-image: url("./images/astronaut.jpg"); */
     background-size: cover;
     background-position: cover;
     background-attachment: fixed;
@@ -334,7 +334,8 @@ section {
 @media screen and (max-width: 575px) {
     body {
         background-image: url("./images/astronaut-cellphone-size.jpeg");
-        background-size: cover;
+        /* background-size: cover; */
+        background-attachment: scroll;
     }
 
     header nav ul {

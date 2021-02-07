@@ -52,7 +52,6 @@ header nav ul {
 header nav ul li a {
     margin: 10px 15px;
     font-weight: lighter;
-    /* 1.55% viewport width */
     font-size: 1.75vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     /* this padding adjusts the size of the button press */
@@ -100,7 +99,6 @@ header nav ul li a:hover {
 .music-player {
     width: 1250px;
     margin: 0 auto 30px auto;
-    /* background-image: linear-gradient(to right, #323334, #6c7a86, #ffffff); */
     background-image: linear-gradient(to right, rgba(50, 51, 52, 1), rgba(108, 122, 134, 0.5), rgba(255, 255, 255, 0.1));
     color: #fce138;
     overflow: auto;
@@ -365,6 +363,7 @@ section {
 
     .biography {
         flex: 1 100%;
+        background-image: linear-gradient(to right, #323334, #6c7a86);
     }
 
     .biography img {

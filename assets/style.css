@@ -301,12 +301,13 @@ section {
 
     /* this controls where the logo appears */
     .hero {
-        padding-top: 75%;
+        /* padding-top: 85%; */
     }
 
     .hero-logo {
         width: 100%;
         text-align: center;
+        padding-top: 65%;
     }
 
     .hero-logo h1 {
@@ -348,7 +349,11 @@ section {
     }
 
     .hero {
-        padding-top: 100%;
+        /* padding-top: 100%; */
+    }
+
+    .hero-logo {
+        padding-top: 85%;
     }
 
     .hero-logo h1 {

@@ -133,7 +133,6 @@ iframe {
 .biography {
     width: 1250px;
     margin: 0 auto 30px auto;
-    /* background: #6c7a86; */
     background-image: linear-gradient(to right, #323334, #6c7a86, #ffffff);
     color: #fce138;
     overflow: auto;
@@ -259,22 +258,13 @@ section {
 
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
-@media screen and (max-width: 1024px) {
-    body {
-        /* background-position: center center;
-        background-repeat: no-repeat; */
-        /* background-position: center; */
-    }
+@media screen and (max-width: 1024px) {  
 }
 
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 /* this will be applied on any screen between 768px and 575px */
 @media screen and (max-width: 768px) {
-    body {
-
-    }
-
     header {
         padding-bottom: 0;
         justify-content: center;
@@ -291,14 +281,10 @@ section {
         padding: 10px 5px;
     }
 
-    /* this controls where the logo appears */
-    .hero {
-        /* padding-top: 85%; */
-    }
-
     .hero-logo {
         width: 100%;
         text-align: center;
+        /* determines where the logo appears on the screen */
         padding-top: 55%;
     }
 
@@ -329,22 +315,13 @@ section {
 /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 /* this will be applied on any screen smaller than 575px */
 @media screen and (max-width: 575px) {
-    body {
-        /* background-image: url("./images/astronaut-cellphone-size.jpeg"); */
-        /* background-size: cover; */
-        /* background-attachment: scroll; */
-    }
-
     header nav ul {
         margin-top: 5px;
         width: 100%;
     }
 
-    .hero {
-        /* padding-top: 100%; */
-    }
-
     .hero-logo {
+        /* determines where the logo appears on the screen */
         padding-top: 85%;
     }
 

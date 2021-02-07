@@ -7,14 +7,8 @@
 
 body {
     font: 400 16px/22px "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    /* background-image: url("./images/astronaut.jpg");
-    background-size: contain;
-    background-repeat: no-repeat;
-
-    background-position: cover; */
-    /* background-attachment: fixed; */
-    /* height: 100%;
-    width: auto; */
+    background-color: black;
+    /* astronaut background-image is being declared in html file */
 }
 
 /* apply styles to <header> */
@@ -307,7 +301,7 @@ section {
     .hero-logo {
         width: 100%;
         text-align: center;
-        padding-top: 65%;
+        padding-top: 55%;
     }
 
     .hero-logo h1 {
